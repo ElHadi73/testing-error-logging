@@ -1,0 +1,16 @@
+{
+  "name": "logging_error_test_",
+  "version": "1.0.0",
+  "description": "to test logging error",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "winston": "^3.6.0",
+    "winston-json-formatter": "^0.10.0"
+  }
+}
