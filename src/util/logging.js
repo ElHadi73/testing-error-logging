@@ -46,6 +46,4 @@ const logConfiguration = {
 //create a logger instance
 const logger = winston.createLogger(logConfiguration);
 
-logger.info("Winston logger, some info!");
-logger.error("Winston logger, some error!");
-logger.warn("Winston logger, some warn!");
+module.exports = logger;
