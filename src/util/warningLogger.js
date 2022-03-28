@@ -11,24 +11,7 @@ const logConfiguration = {
 
 		//create the log directory if it does not exist
 			filename: 'logs/warns.log.json'
-		}),
-
-		new winston.transports.File({
-			level: 'error',
-
-		//create the log directory if it does not exist
-			filename: 'logs/errors.log.json'
-
-		}),
-
-		new winston.transports.File({
-			level: 'info',
-
-		//create the log directory if it does not exist
-			filename: 'logs/infos.log.json',
-
-		}),
-
+		})
 	],
 
 	format: winston.format.combine(

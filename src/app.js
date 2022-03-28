@@ -1,3 +1,7 @@
-const logger = require('./util/logging');
+const errlogger = require('./util/errorLogger');
+const warnlogger = require('./util/warningLogger');
+const infologger = require('./util/infoLogger');
 
-logger.info("hi");
+errlogger.error("err");
+warnlogger.warn("wr");
+infologger.info("fd");
