@@ -32,13 +32,13 @@ const logConfiguration = {
 	],
 
 	format: winston.format.combine(
-		winston.format.json(),
 
 		winston.format.timestamp({
 			format: 'DD-MMM-YYYY HH:mm:ss'
 		}),
 
-		winston.format.printf(info => `${info.level}: ${[info.timestamp]}: ${info.message}: ${JSON.stringify(info.message, null, 2)}`),
+		winston.format.printf(info => `${info.level}: ${[info.timestamp]}: ${info.message}`),
+		winston.format.json()
 
 	)
 };

@@ -1,2 +1,2 @@
-error: 27-Mar-2022 23:32:37: Winston logger, some error!: "Winston logger, some error!"
-warn: 27-Mar-2022 23:32:37: Winston logger, some warn!: "Winston logger, some warn!"
+{"level":"error","message":"Winston logger, some error!","timestamp":"27-Mar-2022 23:45:19"}
+{"level":"warn","message":"Winston logger, some warn!","timestamp":"27-Mar-2022 23:45:19"}
